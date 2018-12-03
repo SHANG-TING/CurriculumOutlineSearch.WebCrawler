@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurriculumOutlineSearch.WebCrawler", "CurriculumOutlineSearch.WebCrawler\CurriculumOutlineSearch.WebCrawler.csproj", "{C4853DE2-56B0-412A-BA95-A90D860B94EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4853DE2-56B0-412A-BA95-A90D860B94EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4853DE2-56B0-412A-BA95-A90D860B94EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4853DE2-56B0-412A-BA95-A90D860B94EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4853DE2-56B0-412A-BA95-A90D860B94EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F19D9D30-610C-4941-B675-A0F1F6116770}
+	EndGlobalSection
+EndGlobal
