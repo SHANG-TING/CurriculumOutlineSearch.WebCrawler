@@ -80,10 +80,10 @@ namespace CurriculumOutlineSearch.InsertDB
             var allFilePath = Directory.GetFiles(RootPath, "*.json", SearchOption.AllDirectories)
                 .Where(x => !x.EndsWith("category.json"))
                 .ToArray();
-            
-            for (var i = 1; i < allFilePath.Length; i++ )
+
+            var i = 1;
+            foreach (var filePath in allFilePath)
             {
-                var filePath = allFilePath[i];
                 var categoryId = Convert.ToInt32(Path.GetFileNameWithoutExtension(filePath));
                 var text = File.ReadAllText(filePath);
                 var json = JsonConvert.DeserializeObject<IEnumerable<dynamic>>(text)
